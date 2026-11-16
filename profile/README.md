@@ -69,4 +69,6 @@ Eskiu program as its backend, as Tauri does for Rust. Packages bring device serv
 A package is a git repository with an `eskiu.toml` (`eskiuc new NAME` makes one, and
 [ui-package-template](https://github.com/eskiu-packages/ui-package-template) starts a package
 for ui apps). Tag a release and others add it with
-`eskiuc add NAME --git https://github.com/YOU/NAME --rev v0.1.0`.
+`eskiuc add NAME --git https://github.com/YOU/NAME --rev v0.1.0`. To list it next to these,
+open a pull request on the [package index](https://github.com/eskiu-lang/index) that adds
+`packages/NAME.toml`.
